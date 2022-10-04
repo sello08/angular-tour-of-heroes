@@ -10,11 +10,11 @@ import { Heroes } from './../hero.container';
 })
 export class HeroesComponent implements OnInit {
 
-
   selectedHero? : Hero;
   public heroes = Heroes;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
